@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&display=swap');
+
+#description {
+  text-align: center;
+  color: #FDB515;
+  margin: 5rem;
+  white-space: nowrap;
+}
+
+
+#big-header {
+    color: #FDB515;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: clamp(2rem, 6vw, 5rem);
+    letter-spacing: -.5;
+    padding: 0;
+    margin: 0;
+}
+
+#small-header {
+    color: #FDB515;
+    font-family: 'Source Serif 4', serif;
+    font-size: clamp(1rem, 3vw, 2.5rem);
+    font-weight: 200;
+    letter-spacing: -.5;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+#magic-bento {
+  width: 100%;
+}

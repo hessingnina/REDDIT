@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  height: 100%
+}
+
+html {
+  height: 25%;
+  background-image: url("assets/ucb2.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #002676;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 38, 118, 0.35); /* dark overlay */
+  z-index: -2;
+  pointer-events: none;
+}
