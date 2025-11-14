@@ -6,7 +6,8 @@ export default {
   plugins: [react()],
   server: {
     proxy: {
-      '/top-redditor': 'http://localhost:3000'
+      '/top-redditor': 'http://localhost:3000',
+      '/stats': 'http://localhost:3000'
     }
   }
 }

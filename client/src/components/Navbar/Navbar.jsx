@@ -5,7 +5,7 @@ import bearIcon from '../../assets/walking-bear-thumbnail.png';
 const Navbar = () => {
     return (
         <nav id="navbar">
-            <div className="navbar-left">
+            <div id="navbar-left">
                 <Link to="/" id="home">
                     <img src = {bearIcon} alt="Berkeley Logo" id="bear-icon"/>
                     <span id="site-title">r/berkeley · Live Analytics</span>
